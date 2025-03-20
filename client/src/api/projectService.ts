@@ -1,7 +1,7 @@
 
 import { IProject } from '../server/models/Project';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://crmsystemserver.vercel.app/api';
 
 export const getProjects = async (): Promise<IProject[]> => {
   try {
